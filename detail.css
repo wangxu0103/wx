@@ -1,0 +1,681 @@
+*{
+	padding: 0;
+	margin: 0;
+}
+ul,li,ol{
+	list-style: none;
+}
+a{
+	text-decoration: none;
+}
+.alltop{
+	width: 100%;
+	height: 170px;
+	background-color: white;
+}
+.body{
+	margin: 0 auto;
+	width: 1180px;
+	height: 1300px;
+}
+.top{
+	margin: 0 auto;
+	width: 1180px;
+	height: 26px;
+}
+.ltop{
+	width: 80px;
+	float: left;
+	color: #9a9791;
+	font-size: 1px;
+	margin-top: 11px;
+}
+.rtop{
+	float: right;
+	height: 19px;
+	width: 755px;
+	overflow: hidden;
+	margin-top: 7px;
+}
+.qq{
+	width: 19px; 
+	height: 19px; 
+	background: url("任务所需小图//img//common_min.png") 0 -31px;
+	float: left;
+}
+.wx{
+	width: 19px; 
+	height: 19px; 
+	background: url("任务所需小图//img//common_min.png") 0 -53px;
+	margin-left: 18px;
+	float: left;
+	
+}
+.wb{
+	width: 19px; 
+	height: 19px; 
+	background: url("任务所需小图//img//common_min.png") 0 -75px;
+	margin-left: 18px;
+	float: left;
+}
+.onload{
+	float: left;
+	width: 25px;
+	height: 19px;
+	line-height: 19px;
+	color: #a9c6be;
+	font-size: 1px;
+	margin-left: 18px;
+}
+.imgmessage{
+	float: left;
+	margin-left: 18px;
+	margin-top: 5px;
+	width: 20px; 
+	height: 10px; 
+	background: url("任务所需小图//img//common_min.png")  0 -117px;
+	top: 12px;
+	left: 705px;
+}
+.message{
+	height: 19px;
+	width: 25px;
+	line-height: 19px;
+	float: left;
+	color: #a9c6be;
+	font-size: 1px;
+	margin-left: 5px;
+}
+.imgmy{
+	float: left;
+	width: 13px; 
+	height: 15px; 
+	background: url("任务所需小图//img//dingdan.jpg");
+	margin-left: 19px;
+	margin-top: 2px;
+}
+.my{
+	height: 19px;
+	width: 50px;
+	line-height: 19px;
+	float: left;
+	color: #a9c6be;
+	font-size: 1px;
+	margin-left: 5px;
+}
+.sc{
+	color: #a9c6be;
+	float: left;
+	margin-left: 22px;
+	font-size: 1px;
+}
+.phone{
+	float: left;
+	width: 8px; 
+	height: 14px; 
+	background: url("任务所需小图//img//tp-my-phone.png");
+	margin-left: 20px;
+	margin-top: 2px;
+}
+.mobilephone{
+	float: left;
+	font-size: 1px;
+	color: #a9c6be;
+	margin-left: 5px;
+}
+.car{
+	float: left;
+	width: 18px; 
+	height: 16px; 
+	background: url("任务所需小图//img//gouwuche.jpg");
+	margin-left: 20px;
+}
+.buy{
+	float: left;
+	font-size: 1px;
+	color: #a9c6be;
+	margin-left: 5px;
+}
+.zero{
+	float: right;
+	color: #ff6b7c;
+	font-size: 1px;
+}
+.bodytop{
+	width: 1180px;
+	margin: 0 auto;
+	margin-top: 25px;
+	height: 80px;
+}
+.logo{
+	float: left;
+}
+.in{
+	float: left;
+	width: 500px;
+	height: 40px;
+	background-color:  #fe6c00;
+	margin-left: 110px;
+	margin-top: 15px;
+}
+.input{
+	float: left;
+	height: 34px;
+	width: 500px;
+	border: 0;
+	margin-top: 3px;
+	margin-left: 3px;
+}
+.but{
+	width: 82px;
+	height: 40px;
+	float: left;
+	margin-top: 15px;
+}
+.button{
+	background-color: #fe6c00;
+	width: 82px;
+	height: 40px;
+}
+.btright{
+	height: 40px;
+	width: 260px;
+	float: right;
+	margin-top: 15px;
+}
+.phonenumber{
+	width: 84px;
+	height: 38px;
+	border:1px solid #e6e5e2;
+	float: left;
+}
+.question{
+	width: 85px;
+	height: 38px;
+	border:1px solid #e6e5e2;
+	float: left;
+	background-color: #ff4d04
+}
+.imgphone{
+	width: 19px;
+	height: 14px;
+	background: url("任务所需小图//img//common_min.png")  0 -98px;
+	margin-top: 7px;
+	margin-left: 32px;
+
+}
+.number{
+	font-size: 1px;
+	margin-bottom: 0;
+	color: #a9c6be;
+}
+.imgemail{
+	width: 20px; 
+	height: 14px; 
+	background: url("任务所需小图//img//common_min.png")  0 -117px;
+	margin-top: 7px;
+	margin-left: 32px;
+}
+.wenhao{
+	height: 13px;
+	width: 13px;
+	background: url("任务所需小图//img//wenhao.jpg");
+	float: left;
+	margin-top: 15px;
+	margin-left: 6px;
+
+}
+.normalquestion{
+	color: #ffffff;
+	font-size: 1px;
+	float: left;
+	margin-top: 13px;
+}
+.select{
+	width: 570px;
+	height: 16px;
+	margin-top: 10px;
+	float: left;
+	margin-left: 115px;
+}
+.redp{
+	color: #ff0000;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	border-right: 1px solid #ebe7e7;
+	font-size: 1px;
+	float: left;
+	padding-left: 7px;
+	padding-right: 7px;
+}
+.grayp{
+	color: #666560;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	border-right: 1px solid #ebe7e7;
+	font-size: 1px;
+	padding-left: 7px;
+	padding-right:  7px;
+	float: left;
+}
+.bluep{
+	color: #aca9d3;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	border-right: 1px solid #ebe7e7;
+	font-size: 1px;
+	padding-left: 8px;
+	padding-right: 8px;
+	float: left;
+}
+.lastp{
+	color: #666560;
+	height: 16px;
+	line-height: 16px;
+	text-align: center;
+	font-size: 1px;
+	padding-left: 8px;
+	float: left;
+}
+.contenthead{
+	float: left;
+	width: 100%;
+	height: 40px;
+	background: #000000;
+	color: white;
+	font-size: 1px;
+
+}
+.fchead{
+	width: 96px;
+	height: 40px;
+	text-align: center;
+	line-height: 40px;
+	float: left;
+	margin-left: 80px;
+	margin-right:39px;
+	background-color: #fe0d4a; 
+}
+.select7{
+	float: left;
+	height: 40px;
+	line-height: 40px;
+	text-align: center;
+	margin-right: 75px;
+}
+.sign{
+	float: right;
+	height: 40px;
+	width: 164px;
+	background-color: #323534;
+	margin-right:69px;
+}
+.selected{
+	float: left;
+	height: 35px;
+	width: 1180px;
+	line-height: 35px;
+	font-size: 1px;
+	background-color: #f6f5f4;
+}
+.shop{
+	height: 635px;
+	position: relative;
+	float: left;
+	width: 1180px;
+	background-color: white;
+}
+#successbuy{
+	position: fixed;
+	left: 0;
+	top: 0;
+	width: 100%;
+	height: 635px;
+	background-color: #dedcd8;
+	z-index: 999999;
+	opacity:0.4;
+	display:none;
+}
+#smallsuccess{
+	position: fixed;
+	top: 213px;
+	left: 477px;
+	width: 398px;
+	height: 220px;
+	background-color: white;
+	border:4px solid #aca9d3;
+	overflow: hidden;
+	opacity: 1;
+	display: none;
+	z-index: 99999999;
+}
+#goonbuy{
+	float: left;
+	width: 150px;
+	height: 40px;
+	margin-left: 7px;
+	color: #ff0176;
+	border: 1px solid #ff0754;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+#carjs{
+	width: 150px;
+	height: 40px;
+	color: white;
+	background-color: #ff0754;
+	float: left;
+	margin-left: 7px;
+	text-align: center;
+	line-height: 40px;
+	cursor: pointer;
+}
+#closesign{
+	position: fixed;
+	left: 870px;
+	top: 220px;
+	color: black;
+	width:10px;
+	height: 10px;
+	cursor: pointer;
+
+}
+.shop1{
+	float: left;
+	width: 420px;
+	height: 500px;
+	margin-top: 20px;
+	margin-left: 20px;
+}
+#sl{
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100px;
+	height: 100px;
+	opacity:0.4;
+	background-color: #73726d;
+	cursor: move;
+	display:none;
+}
+.detailshop1{
+	height: 546px;
+	width: 500px;
+	float: left;
+	margin-top: 20px;
+	margin-left: 20px;
+	font-size: 1px;
+}
+.shop1bottom{
+	width: 410px;
+	height: 64px;
+	float: left;
+	position: relative;
+	margin-top: 450px;
+}
+.decrease{
+	width: 500px;
+	height: 100px;
+	float: left;
+}
+.buyb{
+	width: 350px;
+	height: 390px;
+	float: left;
+	margin-left: 27px;
+}
+.hanliang{
+	float: left;
+	color: black;
+	height:16px;
+	width: 72px;
+}
+.selected150ml{
+	float: left;
+	width: 62px;
+	height: 30px;
+	color: black;
+	margin-left: 26px;
+	text-align: center;
+	line-height: 30px;
+	border: 1px solid #ff0853;
+	position: relative;
+	cursor: pointer;
+}
+.duigou{
+	position: absolute;
+	right: 0;
+	bottom: -10px;
+}
+.select200ml{
+	position: relative;
+	float: left;
+	width: 62px;
+	height: 30px;
+	color: black;
+	line-height: 30px;
+	margin-left: 13px;
+	cursor: pointer;
+}
+.num{
+	float: left;
+	height: 12 0px;
+	margin-top: 20px;
+	text-align: center;
+
+}
+.danum{
+	float: left;
+	margin-left: 65px;
+}
+.decreasenum{
+	float: left;
+	width: 24px;
+	height: 27px;
+	border: 1px solid #cecbc5;
+	line-height: 27px;
+	cursor: pointer;
+}
+.nownum{
+	float: left;
+	width: 50px;
+	height: 27px;
+	line-height: 27px;
+	text-align: center;
+	border: 1px solid #cecbc5;
+}
+.addnum{
+	float: left;
+	width: 24px;height: 27px;
+	border: 1px solid #cecbc5;
+	line-height: 27px;
+	cursor: pointer;
+}
+.kucun{
+	float: left;
+	margin-left: 25px;
+	color: black;
+	margin-top: 7px;
+}
+.sale{
+	float: left;
+	margin-left: -25px;
+}
+.buynow{
+	height: 38px;
+	width: 148px;
+	float: left;
+	border: 2px solid #ff0754;
+}
+.incar{
+	height: 38px;
+	width: 148px;
+	float: left;
+	margin-left: 20px;
+}
+.butt{
+	margin-left: 45px;
+	margin-top: 20px;
+	float: left;
+	width: 350px;
+	height: 45px;
+}
+.shop2{
+	float: left;
+	border-left: 8px solid #f6f5f4;
+	width: 180px;
+	height: 630px;
+}
+.shop1leftimg{
+	float: left;
+}
+.shop1self{
+	float: left;
+	border: 2px solid #ff9003;
+}
+.shop1shop2{
+	float: left;
+}
+.shop1rightimg{
+	float: right;
+}
+.middlelink{
+	float: left;
+	margin-top: -15px;
+}
+.bottom{
+	float: left;
+	height: 400px;
+	background-color:white;
+}
+.lastconversation{
+	float: left;
+	width: 148px;
+	height: 184px;
+	margin-right: 86px;
+}
+.lastimg{
+	float: left;
+	margin-top: 33px;
+}
+.lastphonenumber{
+	float: left;
+	margin-top: 20px;
+	color: #ff7705;
+	font-weight: bold;
+	font-size: 21px;
+}
+.timeemail{
+	float: left;
+	margin-top: 20px;
+}
+.bottombody{
+	float: left;
+	width: 946px;
+	height: 182px;
+	margin-top: 30px;
+	border-bottom: 1px solid #ebeae8;
+}
+.q1{
+	float: left;
+	margin-right: 65px;
+	width: 70px;
+}
+.q1head{
+	color: #000000;
+	margin-bottom: 14px;
+}
+.q1body{
+	font-size: 1px;
+	color: #666560;
+	margin-bottom: 14px;
+}
+.twoma{
+	float: left;
+}
+.lastlink{
+	height: 18px;
+	margin-top: 15px;
+	margin-left: 260px;
+	float: left;
+	font-size: 1px;
+	color: #967aaa;
+}
+.firstll{
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 18px;
+	float: left;
+	line-height: 18px;
+}
+.llink{
+	height: 18px;
+	float: left;
+	padding-left: 15px;
+	padding-right: 15px;
+	height: 18px;
+	line-height: 18px;
+border-left: 1px solid #d0cdc7;
+}
+.shuoming{
+	float: left;
+	font-size: 1px;
+	color: #b4969e;
+	margin-top: 13px;
+}
+.shuoming1{
+	float: left;
+	margin-left: 350px;
+	margin-bottom: 13px;
+}
+.shuoming2{
+	float: left;
+	margin-left: 57px;
+	margin-bottom: 13px;
+
+}
+.shuoming3{
+	float: left;
+	margin-left: 527px;
+	margin-bottom: 13px;
+
+}
+.lastjpg{
+	float: left;
+	margin-left: 200px;
+}
+.jpg{
+	float: left;
+	margin-right: 10px;
+}
+.hot{
+	position: absolute;
+	left: 980px;
+	top: 130px;
+}
+#shop1{
+	position: absolute;
+	top: 230px;
+	left:  100px;
+}
+#bigshop{
+	position: absolute;
+	width:415px; 
+	height:415px;
+	top: 230px;
+	left: 511px;
+	display: none;
+	overflow: hidden;
+}
+#Bimg{
+		position:absolute;
+		left:0;
+		top:0;
+	}
+
+
+
